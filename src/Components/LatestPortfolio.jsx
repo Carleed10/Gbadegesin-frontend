@@ -5,19 +5,16 @@ import management from "../Images/management.jpg";
 import estate from "../Images/estate.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-const Services = () => {
+const LatestPortfolio = () => {
   return (
     <>
-      <div className="relative bg-[rgb(24,22,22)] flex justify-center py-20 items-center w-full">
+      <div className="relative bg-[white] flex justify-center py-20 items-center w-full">
         <div className="w-[80%]">
           <h1
-            className="font-bold mt-2 font-vidaloka leading-tight text-center text-[40px] bg-gradient-to-r bg-clip-text text-transparent"
-            style={{
-              backgroundImage:
-                "linear-gradient(to right, rgb(246,143,32), rgb(240,92,33))",
-            }}
+            className="font-bold mt-2 font-vidaloka leading-tight text-center text-[40px]"
+            
           >
-            Your One-Stop Destination for <br /> Real Estate Services
+            Optimum Homes & Properties  <br /> Realty Experts
           </h1>
 
           <div className="flex text-[white] justify-between mt-10">
@@ -63,7 +60,7 @@ const Services = () => {
                     ESTATE MANAGEMENT
                   </h3>
                   <p className="mt-2 text-[15px]">
-                    Transforming spaces into thriving communities with expert planning, design, and construction services.
+                    Transforming spaces into thriving communities with expert planning, design, and construction LatestPortfolio.
                   </p>
                   <button
                     style={{
@@ -112,4 +109,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default LatestPortfolio;

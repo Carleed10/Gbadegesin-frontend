@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <>
     
-      <div className='relative bg-[white] flex justify-center items-center w-full mt-[15vh]'>
+      <div className='relative bg-[white] flex justify-center items-center w-full mt-[15vh] h-[85vh]'>
           <div className=''>
             <div className='flex justify-between'>
 

@@ -3,6 +3,8 @@ import HomeLayout from "./Layouts/HomeLayout";
 import HomePage from "./Pages/HomePage";
 import ContactLayout from "./Layouts/ContactLayout";
 import ContactPage from "./Pages/ContactPage";
+import ServiceLayout from "./Layouts/ServiceLayout";
+import ServicePage from "./Pages/ServicePage";
 
 
 
@@ -17,6 +19,11 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <ContactLayout/>,
     children: [{ path: "", element: <ContactPage/> }],
+  },
+  {
+    path: "/service",
+    element: <ServiceLayout/>,
+    children: [{ path: "", element: <ServicePage/> }],
   }
 ]);
 

@@ -1,15 +1,15 @@
 export const navigationLinks = [
     {
       title: "Home",
-      path: "home",
+      path: "/",
     },
     {
-      title: "About Us",
-      path: "about",
+      title: "Our Service",
+      path: "/service",
     },
     {
       title: "Contact Us",
-      path: "contact_us",
+      path: "/contact",
     },
   ];
   

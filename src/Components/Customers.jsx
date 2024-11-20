@@ -12,69 +12,78 @@ const Customers = () => {
 
   return (
     <div className="flex justify-center items-center py-10">
-      <div
-        ref={ref}
-        data-aos="fade-up"
-        data-aos-duration="2000"
-        className="w-[85%] flex justify-between space-x-10 "
-      >
-        {/* Properties Sold */}
-        <div className="text-center flex items-center gap-8 text-black">
-          <FaHome className="mx-auto text-5xl" />
-          <div>
-          <h1 className="text-4xl font-bold mt-2 text-[black] font-vidaloka leading-tight text-center text-[35px] mt-4">
+    <div
+      ref={ref}
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      className="w-[85%] flex flex-wrap justify-center gap-10"
+    >
+      {/* Properties Sold */}
+      <div className="w-full md:w-[22%] text-center flex flex-col items-center gap-4 text-black">
+        <FaHome color='rgb(246,145,32)' className="mx-auto text-5xl" />
+        <div>
+          <h1 className="text-3xl md:text-4xl font-bold mt-2 text-[black] font-vidaloka">
             {inView && (
               <CountUp start={0} end={12000} duration={5.5} separator="," />
             )}
             +
           </h1>
-          <p className="mt-2 text-md text-[rgb(136,136,145)]">Properties Sold</p>
-          </div>
+          <p className="mt-2 text-md text-[rgb(136,136,145)]">
+            Properties Sold
+          </p>
         </div>
-
-        {/* Properties Listed */}
-        <div className="text-center flex items-center gap-8 text-black">
-          <FaClipboardList className="mx-auto text-5xl" />
-         <div>
-         <h1 className="text-4xl font-bold mt-2 text-[black] font-vidaloka leading-tight text-center text-[35px] mt-4">
+      </div>
+  
+      {/* Properties Listed */}
+      <div className="w-full md:w-[22%] text-center flex flex-col items-center gap-4 text-black">
+        <FaClipboardList color='rgb(246,145,32)' className="mx-auto text-5xl" />
+        <div>
+          <h1 className="text-3xl md:text-4xl font-bold mt-2 text-[black] font-vidaloka">
             {inView && (
               <CountUp start={0} end={15000} duration={5.5} separator="," />
             )}
             +
           </h1>
-          <p className="mt-2 text-md text-[rgb(136,136,145)]">Properties Listed</p>
-         </div>
+          <p className="mt-2 text-md text-[rgb(136,136,145)]">
+            Properties Listed
+          </p>
         </div>
-
-        {/* Happy Clients */}
-        <div className="text-center flex items-center gap-8 text-black">
-          <FaUsers className="mx-auto text-5xl" />
-          <div>
-          <h1 className="text-4xl font-bold mt-2 text-[black] font-vidaloka leading-tight text-center text-[35px] mt-4">
+      </div>
+  
+      {/* Happy Clients */}
+      <div className="w-full md:w-[22%] text-center flex flex-col items-center gap-4 text-black">
+        <FaUsers color='rgb(246,145,32)' className="mx-auto text-5xl" />
+        <div>
+          <h1 className="text-3xl md:text-4xl font-bold mt-2 text-[black] font-vidaloka">
             {inView && (
               <CountUp start={0} end={9000} duration={5.5} separator="," />
             )}
             +
           </h1>
-          <p className="mt-2 text-md text-[rgb(136,136,145)]">Happy Clients</p>
-          </div>
+          <p className="mt-2 text-md text-[rgb(136,136,145)]">
+            Happy Clients
+          </p>
         </div>
-
-        {/* New Properties Added */}
-        <div className="text-center flex items-center gap-8 text-black">
-          <FaPlusCircle className="mx-auto text-5xl" />
-          <div>
-          <h1 className="text-4xl font-bold mt-2 text-[black] font-vidaloka leading-tight text-center text-[35px] mt-4">
+      </div>
+  
+      {/* New Properties Added */}
+      <div className="w-full md:w-[22%] text-center flex flex-col items-center gap-4 text-black">
+        <FaPlusCircle color='rgb(246,145,32)' className="mx-auto text-5xl" />
+        <div>
+          <h1 className="text-3xl md:text-4xl font-bold mt-2 text-[black] font-vidaloka">
             {inView && (
               <CountUp start={0} end={2000} duration={5.5} separator="," />
             )}
             +
           </h1>
-          <p className="mt-2 text-md text-[rgb(136,136,145)]">Complete Project</p>
-          </div>
+          <p className="mt-2 text-md text-[rgb(136,136,145)]">
+            Complete Projects
+          </p>
         </div>
       </div>
     </div>
+  </div>
+  
   );
 };
 

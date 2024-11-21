@@ -13,6 +13,7 @@ export default function TemporaryDrawer({ onClose, open }) {
         anchor="left"
         PaperProps={{
           sx: {
+            width : "100%",
             height: "100vh", // Set the height of the Drawer to 50% of the viewport height
           },
         }}

@@ -11,7 +11,7 @@ const Customers = () => {
   });
 
   return (
-    <div className="flex justify-center items-center py-10">
+    <div className="flex bg-[rgb(247,247,247)] justify-center items-center py-10">
     <div
       ref={ref}
       data-aos="fade-up"

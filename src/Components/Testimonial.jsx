@@ -13,8 +13,8 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="w-full bg-[rgb(247,247,247)] relative flex flex-col justify-center items-center h-[100vh]">
-                <h1 className='mt-2 font-vidaloka leading-tight items-center text-centre text-[40px]'>Hear from Our Happy Clients</h1>
+    <div className="w-full bg-[rgb(247,247,247)] relative flex flex-col py-10 justify-center items-center h-[100vh]">
+                <h1 className='mt-2 font-vidaloka leading-tight items-center text-centre text-[25px] sm:text-[40px]'>Hear from Our Happy Clients</h1>
 
 
 

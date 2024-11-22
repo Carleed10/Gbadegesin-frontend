@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../../Images/red-logo.png"
 // import logo from "../../Images/kik-logo.png";
 import { IoSearchOutline } from "react-icons/io5";
 import { GiShoppingCart } from "react-icons/gi";
@@ -11,15 +12,15 @@ const Navbar = ({ onContactClick }) => {
   const [showDrawer, setshowDrawer] = useState(false);
 
   return (
-    <div className="px-4 bg-[rgb(248,248,248)] text-[black] md:px-0 fixed top-0 w-full h-[15vh] font-semibold flex items-center justify-center z-50">
-      <div className="w-full lg:w-4/5 md:px-4 lg:px-0">
+    <div style={{boxShadow:'2px, 2px, 6px orange'}} className="px-4 bg-[white] text-[black] shadow-lg md:px-0 fixed top-0 w-full h-[15vh] font-semibold flex items-center justify-center z-50">
+      <div className="w-full lg:w-[85%] md:px-4 lg:px-0">
         <div className="flex justify-between items-center">
-          {/* <img className="w-[55px]" src={logo} alt="" /> */}
+          <img className="w-[180px] sm:w-[220px]" src={logo} alt="" />
 
-          <ul className="flex items-center md:gap-8 lg:gap-24 hidden md:flex">
+          <ul className="flex w-[62%] items-center md:gap-8 lg:gap-24 hidden md:flex">
             {navigationLinks.map((data) => (
               <Link
-                className="font-[400] cursor-pointer"
+                className="font-[500]  cursor-pointer"
                 key={data.title}
                 to={data.path}
               >

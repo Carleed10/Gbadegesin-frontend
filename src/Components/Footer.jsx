@@ -1,5 +1,5 @@
 import React from "react";
-// import logo from "../../Images/kik-logo.png";
+import logo from "../Images/white-logo.png";
 // import phone from "../../Images/phone-icon.png";
 // import mail from "../../Images/mail-icon.png";
 import { FaFacebook } from "react-icons/fa";
@@ -14,7 +14,8 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between">
             {/* Logo and description */}
             <div className="mt-10 md:w-[25%] leading-[30px] pr-[25px]  mt-[60px] font-light md:mt-0 text-center md:text-left">
-              <h4 className="font-semibold md:font-normal mb-6">Quick Links</h4>
+            <img className="w-[180px] mb-4 sm:w-[220px]" src={logo} alt="" />
+
               <p>Your trusted partner in finding the perfect home.</p>
       
             </div>

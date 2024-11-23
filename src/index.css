@@ -19,6 +19,11 @@ body {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+[data-aos] {
+  max-width: 100%;
+  overflow: hidden;
 }
 
 

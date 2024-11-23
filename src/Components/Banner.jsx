@@ -1,12 +1,12 @@
 import React from 'react'
 import house from "../Images/banner-five-img.png"
-import Animation from './Animation/Animation'
+
 
 const Banner = () => {
   return (
     <>
     
-      <Animation>
+
 
       <div className='relative bg-[rgb(248,248,248)] flex justify-center items-center w-full mt-[11vh] md:mt-[15vh] md:py-0 py-10  md:h-[85vh]'>
           <div className=''>
@@ -28,7 +28,7 @@ const Banner = () => {
       </div>
 
 
-      </Animation>
+
     
     
     </>

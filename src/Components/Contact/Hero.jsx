@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <>
-        <div className="w-full bg-[rgb(24,22,22)] text-white flex bg-no-repeat mt-[15vh] bg-center justify-center items-center bg-[url(../src/Images/breadcrumb-img.png)] h-[40vh] md:h-[65vh]">
+        <div className="w-full bg-[rgb(24,22,22)] text-white flex bg-no-repeat mt-[11vh] md:mt-[15vh] bg-center justify-center items-center bg-[url(../src/Images/breadcrumb-img.png)] h-[40vh] md:h-[65vh]">
             <div>
             <h1 className="mt-2 font-bold leading-tight text-center text-[40px] md:text-[50px] bg-gradient-to-r bg-clip-text text-transparent"
             style={{

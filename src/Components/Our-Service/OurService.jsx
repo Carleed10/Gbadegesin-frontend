@@ -1,7 +1,7 @@
 import React from "react";
 // import about from "../Images/about-img.png";
-import property from "../../Images/service1.webp";
-import rent from "../../Images/service3.webp";
+import property from "../../Images/property1.png";
+import rent from "../../Images/rent.png";
 import management from "../../Images/management.jpg";
 
 import estate from "../../Images/estate.jpg";
@@ -23,7 +23,7 @@ const OurService = () => {
           </h1>
 
           <div className="flex flex-wrap gap-6 items-center justify-center mt-10">
-            <div className="w-full md:w-[340px] h-[450px] mb-8 md:mb-0 rounded-lg bg-[rgb(248,248,248)] group overflow-hidden">
+            <div data-aos="fade-right" data-aos-duration="2000" className="w-full md:w-[340px] h-[450px] mb-8 md:mb-0 rounded-lg bg-[rgb(248,248,248)] group overflow-hidden">
               <img
                 className="w-full h-[230px] transition-transform duration-300 ease-in-out group-hover:scale-110"
                 src={property}
@@ -57,7 +57,7 @@ const OurService = () => {
               </div>
             </div>
 
-            <div className="w-full md:w-[340px] h-[450px] mb-8 md:mb-0 rounded-lg bg-[rgb(248,248,248)] group overflow-hidden">
+            <div data-aos="fade-left" data-aos-duration="2000" className="w-full md:w-[340px] h-[450px] mb-8 md:mb-0 rounded-lg bg-[rgb(248,248,248)] group overflow-hidden">
               <img
                 className="w-full h-[230px] transition-transform duration-300 ease-in-out group-hover:scale-110"
                 src={rent}
@@ -74,7 +74,7 @@ const OurService = () => {
               </div>
             </div>
 
-            <div className="w-full md:w-[340px] h-[450px] mb-8 md:mb-0 rounded-lg bg-[rgb(248,248,248)] group overflow-hidden">
+            <div data-aos="fade-right" data-aos-duration="2000" className="w-full md:w-[340px] h-[450px] mb-8 md:mb-0 rounded-lg bg-[rgb(248,248,248)] group overflow-hidden">
             <img
                 className="w-full h-[230px] transition-transform duration-300 ease-in-out group-hover:scale-110"
                 src={estate}
@@ -111,7 +111,7 @@ const OurService = () => {
             </div>
 
 
-            <div className="w-full md:w-[340px] h-[450px] mb-8 md:mb-0 rounded-lg bg-[rgb(248,248,248)] group overflow-hidden">
+            <div data-aos="fade-left" data-aos-duration="2000" className="w-full md:w-[340px] h-[450px] mb-8 md:mb-0 rounded-lg bg-[rgb(248,248,248)] group overflow-hidden">
               <img
                 className="w-full h-[230px] transition-transform duration-300 ease-in-out group-hover:scale-110"
                 src={land2}

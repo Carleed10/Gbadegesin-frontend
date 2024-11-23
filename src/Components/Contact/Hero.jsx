@@ -1,6 +1,8 @@
 import React from 'react'
 import { GoHome } from "react-icons/go";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from 'react-router-dom';
+
 
 const Hero = () => {
   return (
@@ -15,7 +17,10 @@ const Hero = () => {
             Contact Us!
           </h1>
             <div className='flex justify-center items-center gap-4'>
-            <h4 className='flex gap-2 justify-center items-center'><GoHome  size={24} color='white' /> Home</h4>
+            <Link to='/'>
+            <h4 className='flex gap-2 cursor-pointer justify-center items-center'><GoHome  size={24} color='white' /> Home</h4>
+
+              </Link>
             <MdOutlineKeyboardArrowRight size={30} color='white' />
 
             <h4>Contact Us</h4>

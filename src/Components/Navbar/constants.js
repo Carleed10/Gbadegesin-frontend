@@ -5,7 +5,7 @@ export const navigationLinks = [
     },
     {
       title: "Our Service",
-      path: "/service",
+      path: "/services",
     },
     {
       title: "Contact Us",

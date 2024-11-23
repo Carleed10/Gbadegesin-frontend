@@ -1,6 +1,6 @@
 import React from "react";
 import about from "../Images/about-img.png";
-import property from "../Images/propertyy.jpg";
+import property from "../Images/property3.png";
 import management from "../Images/management.jpg";
 import estate from "../Images/estate.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
@@ -21,9 +21,9 @@ const Services = () => {
           </h1>
 
           <div className="flex flex-wrap gap-4 items-center justify-center mt-10">
-            <div className="w-full md:w-[340px] mb-8 md:mb-0 rounded-lg bg-[rgb(29,27,27)] group overflow-hidden">
+            <div data-aos="flip-left" data-aos-duration="3000"  className="w-full md:w-[340px] h-[420px] mb-8 md:mb-0 rounded-lg bg-[rgb(29,27,27)] group overflow-hidden">
               <img
-                className="w-full h-[230px] transition-transform duration-300 ease-in-out group-hover:scale-110"
+                className="w-full h-[250px] transition-transform duration-300 ease-in-out group-hover:scale-110"
                 src={property}
                 alt="Property Sales"
               />
@@ -35,21 +35,13 @@ const Services = () => {
                   Offering a wide selection of properties for sale, with expert
                   guidance to help you make the right choice.
                 </p>
-                <button
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(to right, rgb(246,143,32), rgb(240,92,33))",
-                  }}
-                  className="mt-4 bg-[red] flex items-center gap-2 rounded-[20px] text-white p-2 px-6 bg-gradient-to-r"
-                >
-                  Learn More <FaLongArrowAltRight color="white" />
-                </button>
+                
               </div>
             </div>
 
-            <div className="w-full md:w-[340px] mb-8 md:mb-0 rounded-lg bg-[rgb(29,27,27)] group overflow-hidden">
+            <div data-aos="flip-right" data-aos-duration="3000" className="w-full md:w-[340px] h-[420px] mb-8 md:mb-0 rounded-lg bg-[rgb(29,27,27)] group overflow-hidden">
               <img
-                className="w-full h-[230px] transition-transform duration-300 ease-in-out group-hover:scale-110"
+                className="w-full h-[250px] transition-transform duration-300 ease-in-out group-hover:scale-110"
                 src={estate}
                 alt="Estate Management"
               />
@@ -61,21 +53,13 @@ const Services = () => {
                   Transforming spaces into thriving communities with expert
                   planning, design, and construction services.
                 </p>
-                <button
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(to right, rgb(246,143,32), rgb(240,92,33))",
-                  }}
-                  className="mt-4 bg-[red] flex items-center gap-2 rounded-[20px] text-white p-2 px-6 bg-gradient-to-r"
-                >
-                  Learn More <FaLongArrowAltRight color="white" />
-                </button>
+                
               </div>
             </div>
 
-            <div className="w-full md:w-[340px] mb-8 md:mb-0 rounded-lg bg-[rgb(29,27,27)] group overflow-hidden">
+            <div data-aos="flip-left" data-aos-duration="3000" className="w-full md:w-[340px] h-[420px] mb-8 md:mb-0 rounded-lg bg-[rgb(29,27,27)] group overflow-hidden">
               <img
-                className="w-full h-[230px] transition-transform duration-300 ease-in-out group-hover:scale-110"
+                className="w-full h-[250px] transition-transform duration-300 ease-in-out group-hover:scale-110"
                 src={management}
                 alt="Property Development"
               />
@@ -87,15 +71,7 @@ const Services = () => {
                   Providing property management solutions to ensure your
                   investments are well-maintained and profitable.
                 </p>
-                <button
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(to right, rgb(246,143,32), rgb(240,92,33))",
-                  }}
-                  className="mt-4 bg-[red] flex items-center gap-2 rounded-[20px] text-white p-2 px-6 bg-gradient-to-r"
-                >
-                  Learn More <FaLongArrowAltRight color="white" />
-                </button>
+                
               </div>
             </div>
           </div>

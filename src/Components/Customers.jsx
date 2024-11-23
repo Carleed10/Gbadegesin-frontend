@@ -24,7 +24,7 @@ const Customers = () => {
         <div>
           <h1 className="text-3xl md:text-4xl font-bold mt-2 text-[black] font-vidaloka">
             {inView && (
-              <CountUp start={0} end={12000} duration={5.5} separator="," />
+              <CountUp start={0} end={200} duration={4.5} separator="," />
             )}
             +
           </h1>
@@ -40,7 +40,7 @@ const Customers = () => {
         <div>
           <h1 className="text-3xl md:text-4xl font-bold mt-2 text-[black] font-vidaloka">
             {inView && (
-              <CountUp start={0} end={15000} duration={5.5} separator="," />
+              <CountUp start={0} end={400} duration={4.5} separator="," />
             )}
             +
           </h1>
@@ -56,7 +56,7 @@ const Customers = () => {
         <div>
           <h1 className="text-3xl md:text-4xl font-bold mt-2 text-[black] font-vidaloka">
             {inView && (
-              <CountUp start={0} end={9000} duration={5.5} separator="," />
+              <CountUp start={0} end={100} duration={4.5} separator="," />
             )}
             +
           </h1>
@@ -72,7 +72,7 @@ const Customers = () => {
         <div>
           <h1 className="text-3xl md:text-4xl font-bold mt-2 text-[black] font-vidaloka">
             {inView && (
-              <CountUp start={0} end={2000} duration={5.5} separator="," />
+              <CountUp start={0} end={500} duration={4.5} separator="," />
             )}
             +
           </h1>

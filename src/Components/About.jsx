@@ -14,7 +14,7 @@ const About = () => {
             </div>
 
             {/* Text Section */}
-            <div className='w-full md:w-[52%] mt-6 md:mt-0'>
+            <div data-aos="fade-right" data-aos-duration="2000"  className='w-full md:w-[52%] mt-6 md:mt-0'>
               <h2 className='font-semibold sm:font-normal text-[12px] sm:text-[20px] text-[rgb(244,131,31)]'>Why Gbadegesin Properties?</h2>
               <h1 className='font-bold mt-2 text-[#011427] font-vidaloka leading-tight text-left w-[70%] md:w-full md:text-left text-[23px] sm:text-[30px] md:text-[50px]'>
                 Turning Your Property Dreams into Reality

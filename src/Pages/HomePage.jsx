@@ -7,51 +7,42 @@ import Services from "../Components/Services";
 import Customers from "../Components/Customers";
 import Testimonial from "../Components/Testimonial";
 import LatestPortfolio from "../Components/LatestPortfolio";
-
-
-
-
-
-
+import Animation from "../Components/Animation/Animation";
 
 const HomePage = () => {
   return (
     <>
-      <div>
+      <Animation>
+        <div>
+          <div id="welcomeBanner">
+            <Banner />
+          </div>
 
-        <div id="welcomeBanner">
-            <Banner/>
+          <div id="MarqueeText">
+            <MarqueeText />
+          </div>
+
+          <div id="about">
+            <About />
+          </div>
+
+          <div id="services">
+            <Services />
+          </div>
+
+          <div id="customers">
+            <Customers />
+          </div>
+
+          <div id="testimonial">
+            <Testimonial />
+          </div>
+
+          <div id="LatestPortfolio">
+            <LatestPortfolio />
+          </div>
         </div>
-
-        <div id="MarqueeText">
-          <MarqueeText/>
-        </div>
-
-        <div id="about">
-          <About/>
-        </div>
-
-
-        <div id="services">
-          <Services/>
-        </div>
-
-        <div id="customers">
-          <Customers/>
-        </div>
-
-        <div id="testimonial">
-          <Testimonial/>
-        </div>
-
-        <div id="LatestPortfolio">
-          <LatestPortfolio/>
-        </div>
-      
-      
-      </div>
-      
-      
+      </Animation>
 
       {/* <OurProduct/> */}
     </>

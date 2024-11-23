@@ -8,7 +8,7 @@ const Banner = () => {
     
       <Animation>
 
-      <div className='relative bg-[rgb(248,248,248)] flex justify-center items-center w-full mt-[15vh] md:py-0 py-10  md:h-[85vh]'>
+      <div className='relative bg-[rgb(248,248,248)] flex justify-center items-center w-full mt-[11vh] md:mt-[15vh] md:py-0 py-10  md:h-[85vh]'>
           <div className=''>
             <div className=' flex justify-center md:justify-between flex-wrap'>
 

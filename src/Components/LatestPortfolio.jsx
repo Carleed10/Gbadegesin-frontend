@@ -28,7 +28,7 @@ const LatestPortfolio = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
-    centerPadding: "20px",
+    centerPadding: "2px",
     cssEase: "ease-in-out",
   };
 
@@ -90,7 +90,7 @@ const LatestPortfolio = () => {
                           : index === 2
                           ? "Land for Development"
                           : "Cozy House"}{" "}
-        
+                        
                       </p>
                     </div>
                   </div>

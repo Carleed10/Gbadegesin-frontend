@@ -12,7 +12,7 @@ const Navbar = ({ onContactClick }) => {
 
   return (
     <div
-      className="px-4 bg-[white] text-[black] shadow-lg md:px-0 fixed top-0 w-full h-[15vh] font-semibold flex items-center justify-center z-50"
+      className="px-4 bg-[white] text-[black] shadow-lg md:px-0 fixed top-0 w-full h-[12vh] sm:h-[15vh] font-semibold flex items-center justify-center z-50"
     >
       <div className="w-full lg:w-[85%] md:px-4 lg:px-0">
         <div className="flex justify-between items-center">
